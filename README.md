@@ -1,8 +1,8 @@
 # MCTSExtent
 
-This repo holds the code sent to KAIS. We will open it in free access on Github once we have published. 
+This repo holds the code related to "Anytime Mining of Sequential Discriminative Patternsin Labeled Sequences", Romain Mathonat, Diana Nurbakova, Jean-Francois Boulicaut and Mehdi Kaytoue, Knowledge and Information Systems.
 
-**MCTSExtent** finds subgroups for sequential datasets. More precisely, you give a dataset of sequences of itemsets with each sequence having a class, a target class,
+**MCTSExtent** finds subgroups for sequential datasets. More precisely, you give a labeled dataset of sequences of itemset, a target class,
 and the algorithm finds the top-k best pattern discriminative of this class.
 
 This is interesting for two reasons:
