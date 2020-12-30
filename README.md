@@ -6,7 +6,7 @@ This repo holds the code related to ["Anytime Mining of Sequential Discriminativ
 and the algorithm finds the top-k best pattern discriminative of this class.
 
 This is interesting for two reasons:
-1. You can use patterns found to better predict classes of sequences
+1. You can use found patterns to better predict classes of sequences
 2. You can use patterns to better understand a phenomena (= what are the sequence of events, i.e the **patterns**, that appears for this target class)
 
 To use this module, you need to have data in a kosarak-like format. For exemple, the sequence "{1 5},{5 8 9}, {2}", with a class of "+" is encoded this way:
