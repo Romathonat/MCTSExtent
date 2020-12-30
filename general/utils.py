@@ -320,7 +320,7 @@ def get_quality(quality_measure, class_pattern_count, support, data, class_data_
     elif quality_measure == 'Informedness':
         tn = len(data) - support - (class_data_count - class_pattern_count)
         tpr = class_pattern_count / (class_pattern_count + (class_data_count - class_pattern_count))
-        tnr = tn / (class_pattern_count + tn)
+        tnr = tn / (support - class_pattern_count + tn)
         return tnr + tpr - 1
 
     elif quality_measure == 'F1':
